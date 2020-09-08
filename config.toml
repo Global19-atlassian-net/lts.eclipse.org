@@ -49,7 +49,11 @@ header_wrapper_class = "header-default-bg-img"
   hrefTargetBlank = true
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Projects"
+    url = "/projects"
     weight = 1
 
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
