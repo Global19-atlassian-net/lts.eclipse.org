@@ -59,6 +59,11 @@ pluralizeListTitles = false
   weight = 2
   identifier = "about"
 
+[[menu.main]]
+  name = "Resources"
+  url = "/resources"
+  weight = 3
+
 [[menu.sidebar]]
   name = "About"
   url = "/about/"

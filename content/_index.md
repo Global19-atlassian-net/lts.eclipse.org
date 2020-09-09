@@ -27,7 +27,7 @@ Now what? Eclipse code is open source. You can either fix the code yourself (whi
 
 Eclipse users, contributors, and the Eclipse Foundation are working together to create an eco-system for Long-Term Support of the Eclipse code.
 
-Within this eco-system, you will find companies or individuals that will service you. Choose a service provider that is best for you in the  [LTS Marketplace](http://marketplace.eclipse.org/category/markets/long-term-support) and the [list of organizations](/members) providing the [LTS infrastructure](/about/infrastructure).
+Within this eco-system, you will find companies or individuals that will service you. Choose a service provider that is best for you in the  [LTS Marketplace](http://marketplace.eclipse.org/category/markets/long-term-support) and the [list of organizations](/about/infrastructure) providing the [LTS infrastructure](/about/infrastructure).
 
 The advantage over doing it yourself or working outside of the LTS eco-system is that your service provider is a subject matter expert and has access to existing issues. The expert will provide you with reliable new builds, aggregated and tested on a Eclipse Long-Term Support infrastructure.
 

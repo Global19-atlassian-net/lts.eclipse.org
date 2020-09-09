@@ -12,4 +12,4 @@ Large organisations such as system integrators can offer service level agreement
 
 The [Eclipse LTS Marketplace](http://marketplace.eclipse.org/category/markets/long-term-support) is the portal where the customers and the maintenance providers will meet.
 
-The [Eclipse LTS Infrastructure providers](LTSInfrastructure) support a collaborative, reliable and cost-effective platform to manage, integrate, test and distribute the solution to the issues that have been found. In particular, it is the place where all the fixes from the various parties can be collected and made available to all eligible parties.
+The [Eclipse LTS Infrastructure providers](/about/infrastructure) support a collaborative, reliable and cost-effective platform to manage, integrate, test and distribute the solution to the issues that have been found. In particular, it is the place where all the fixes from the various parties can be collected and made available to all eligible parties.
