@@ -4,6 +4,7 @@ headline: "About the LTS working group"
 date: 2020-08-11T11:00:00-04:00
 hide_page_title: "true"
 layout: "single"
+hide_sidebar: "false"
 ---
 
 The LTS working group, hosted by the [EclipseFoundation](http://www.eclipse.org/org/), is focusing on enabling long term support for open source technologies. LTS membership is open to all members of the Eclipse foundation (with at least the solution member level).

@@ -20,7 +20,7 @@ pluralizeListTitles = false
 # styles = "css/styles.css"
 # favicon = ""
 # share_img = ""
-header_wrapper_class = "header-default-bg-img"
+  header_wrapper_class = "header-default-bg-img"
 # logo_width = ""
 # header_left_classes = ""
 # main_menu_wrapper_classes = ""
@@ -49,11 +49,53 @@ header_wrapper_class = "header-default-bg-img"
   hrefTargetBlank = true
 
 [[menu.main]]
-    name = "Projects"
-    url = "/projects"
-    weight = 1
+  name = "Projects"
+  url = "/projects/"
+  weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+  name = "About"
+  url = "/about/"
+  weight = 2
+  identifier = "about"
+
+[[menu.sidebar]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+  identifier = "about"
+
+[[menu.sidebar]]
+  parent ="about"
+  name = "How It Works?"
+  url = "/about/how-does-it-work/"
+  weight = 2
+  identifier = "how-does-it-work"
+
+[[menu.sidebar]]
+  parent ="about"
+  name = "Business Opportunities"
+  url = "/about/business-opportunities/"
+  weight = 3
+  identifier = "business-opportunities"
+
+[[menu.sidebar]]
+  parent ="about"
+  name = "Criteria for being LTS ready"
+  url = "/about/criteria-being-lts-ready/"
+  weight = 4
+  identifier = "criteria-being-lts-ready"
+
+[[menu.sidebar]]
+  parent ="about"
+  name = "LTS Infrastructure"
+  url = "/about/infrastructure/"
+  weight = 5
+  identifier = "infrastructure"
+
+[[menu.sidebar]]
+  parent ="about"
+  name = "Need Help With An Older Release?"
+  url = "/about/request-help/"
+  weight = 6
+  identifier = "request-help"
