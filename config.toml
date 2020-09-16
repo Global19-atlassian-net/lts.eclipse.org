@@ -57,50 +57,74 @@ pluralizeListTitles = false
   name = "About"
   url = "/about/"
   weight = 2
-  identifier = "about"
 
 [[menu.main]]
   name = "Resources"
-  url = "/resources"
+  url = "/resources/"
   weight = 3
 
+[[menu.main]]
+  name = "FAQ"
+  url = "/about/faq/"
+  weight = 4
+
+# GET SUPPORT Sidebar
 [[menu.sidebar]]
-  name = "About"
-  url = "/about/"
+  name = "GET SUPPORT"
   weight = 1
-  identifier = "about"
+  identifier = "home"
 
 [[menu.sidebar]]
-  parent ="about"
+  parent = "home"
+  name = "Subscribe"
+  url = "https://accounts.eclipse.org/mailing-list/lts-iwg"
+  weight = 2
+  identifier = "subscribe"
+
+[[menu.sidebar]]
+  parent ="home"
+  name = "Get help"
+  url = "/about/request-help/"
+  weight = 3
+  identifier = "get-help"
+
+# LTS FLYOVER Sidebar
+[[menu.sidebar]]
+  name = "LTS FLYOVER"
+  weight = 4
+  identifier = "flyover"
+
+[[menu.sidebar]]
+  parent = "flyover"
   name = "How It Works?"
   url = "/about/how-does-it-work/"
-  weight = 2
+  weight = 5
   identifier = "how-does-it-work"
 
 [[menu.sidebar]]
-  parent ="about"
+  parent ="flyover"
   name = "Business Opportunities"
   url = "/about/business-opportunities/"
-  weight = 3
+  weight = 6
   identifier = "business-opportunities"
 
 [[menu.sidebar]]
-  parent ="about"
+  parent ="flyover"
   name = "Criteria for being LTS ready"
   url = "/about/criteria-being-lts-ready/"
-  weight = 4
+  weight = 7
   identifier = "criteria-being-lts-ready"
 
 [[menu.sidebar]]
-  parent ="about"
+  parent ="flyover"
   name = "LTS Infrastructure"
   url = "/about/infrastructure/"
-  weight = 5
+  weight = 8
   identifier = "infrastructure"
 
 [[menu.sidebar]]
-  parent ="about"
+  parent ="flyover"
   name = "Need Help With An Older Release?"
   url = "/about/request-help/"
-  weight = 6
+  weight = 9
   identifier = "request-help"

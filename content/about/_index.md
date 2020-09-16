@@ -36,9 +36,7 @@ There are four levels of participation:
 4.  **Steering Committee Members**
     
     Steering committee members view this working group as strategic to their business. They receive all the rights of premium members, and in addition hold considerable influence over budget and the strategic direction of the working group. Steering committee members pay the highest annual dues .
-    
-    For more information e.g. about the roles and the membership dues, please see our Charter.
-    
+
     As a company in need for LongTerm Support of open source components you may want to join LTS in the role of a selfService maintenance provider. If you are a company offering support for open source components your role will be that of a maintenance or project service provider .
     
 

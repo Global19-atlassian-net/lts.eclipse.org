@@ -1,0 +1,45 @@
+<!-- 
+  Copyright (c) 2018 Eclipse Foundation, Inc.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+{{ if isset .Site.Menus "sidebar" }}
+  {{ $currentPage := . }}
+  {{ .Scratch.Set "currentSection" "home" }}
+
+  {{ if $currentPage.Section }}
+    {{ .Scratch.Set "currentSection" $currentPage.Section }}
+  {{ end }}
+  
+  {{$currentSection := .Scratch.Get "currentSection" }}
+
+  {{ range .Site.Menus.sidebar }}
+    {{$parentItem := . }}
+    
+    <!-- as long as has children, removed condition equal currentSection, to show on all pages -->
+      {{ if .HasChildren }}
+        <aside id="main-sidebar" class="subpage-sidebar">
+        <ul id="leftnav" class="ul-left-nav fa-ul hidden-print">
+        <li class="separator">
+          <a class="separator" href="{{ .URL }}">{{ $parentItem.Name }}</a>
+        </li>
+        {{ range .Children }}
+
+        <!-- As long as the children's parent equals the parent's Identifier, the children shows -->
+          {{ if (eq .Parent $parentItem.Identifier) }}
+            <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+              {{ .Pre }}
+              <a href="{{ .URL }}" target="_self">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+        </ul>
+        </aside>
+      {{ end }}
+  {{ end }}
+{{ end }}
