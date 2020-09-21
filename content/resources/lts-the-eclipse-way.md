@@ -36,13 +36,13 @@ Second, LTS is designed to help those companies or individuals who are in the bu
 
 Here are some of the building blocks of LTS:
 
-·       The Marketplace  
+* The Marketplace  
 This is where maintenance providers advertise their offerings and where a potential consumer of these services can find the professionals to help them.  
 
-·       The Technical Infrastructure  
+* The Technical Infrastructure  
 This shared infrastructure offers all necessary mechanisms to the maintenance providers: from source repository to signed binaries. We will describe it in more detail below.
 
-·       The Organization  
+* The Organization  
 LTS is organized as an Eclipse Working Group. Maintenance providers must join the Working Group which empowers them to leverage the LTS infrastructure and enjoy a wide range of other benefits..
 
 #### **How Does It Work?**
@@ -59,11 +59,11 @@ But this vote is not enough; other maintenance providers are asked to review you
 
  This is quite easy and straightforward, isn’t it? But nevertheless, some questions may come to your mind.
 
-\-        Is Maven / Tycho mandatory to participate in LTS? No, all projects can participate in LTS, but if you use another build infrastructure than Maven / Tycho you are obliged to check in your build scripts to ensure a reproducible build
+* Is Maven / Tycho mandatory to participate in LTS? No, all projects can participate in LTS, but if you use another build infrastructure than Maven / Tycho you are obliged to check in your build scripts to ensure a reproducible build
 
-\-        Who has access to the bug fixes I made? The source code is available (usually under the EPL) as open source to anyone, thus complying with the Open Source license terms. Access to the binaries and to the signing service is limited to LTS members.
+* Who has access to the bug fixes I made? The source code is available (usually under the EPL) as open source to anyone, thus complying with the Open Source license terms. Access to the binaries and to the signing service is limited to LTS members.
 
-\-        How can I create “private” bug fixes that should only be available to the public after a certain point in time (e.g. security fixes)? LTS maintenance providers are granted a private Git forge. Only the provider himself has access and can grant rights to this branch. Code changes in this branch are not subject to a public Gerrit code review.
+* How can I create “private” bug fixes that should only be available to the public after a certain point in time (e.g. security fixes)? LTS maintenance providers are granted a private Git forge. Only the provider himself has access and can grant rights to this branch. Code changes in this branch are not subject to a public Gerrit code review.
 
 **The LTS Market Place**
 
