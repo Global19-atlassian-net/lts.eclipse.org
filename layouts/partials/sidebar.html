@@ -17,19 +17,14 @@
   {{ end }}
   
   {{$currentSection := .Scratch.Get "currentSection" }}
-
-  {{ range .Site.Menus.sidebar }}
-    {{$parentItem := . }}
-    
-    <!-- as long as has children, removed condition equal currentSection, to show on all pages -->
-      {{ if .HasChildren }}
-        <aside id="main-sidebar" class="subpage-sidebar">
-        <ul id="leftnav" class="ul-left-nav fa-ul hidden-print">
+    <aside id="main-sidebar" class="subpage-sidebar">
+      <ul id="leftnav" class="ul-left-nav fa-ul hidden-print">
+        {{ range .Site.Menus.sidebar }}
+        {{$parentItem := . }}
         <li class="separator">
           <a class="separator" href="{{ .URL }}">{{ $parentItem.Name }}</a>
         </li>
         {{ range .Children }}
-
         <!-- As long as the children's parent equals the parent's Identifier, the children shows -->
           {{ if (eq .Parent $parentItem.Identifier) }}
             <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
@@ -38,8 +33,7 @@
             </li>
           {{ end }}
         {{ end }}
-        </ul>
-        </aside>
       {{ end }}
-  {{ end }}
+      </ul>
+    </aside>
 {{ end }}
