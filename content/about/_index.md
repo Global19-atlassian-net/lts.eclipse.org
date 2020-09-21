@@ -7,7 +7,7 @@ layout: "single"
 hide_sidebar: "false"
 ---
 
-The LTS working group, hosted by the [EclipseFoundation](http://www.eclipse.org/org/), is focusing on enabling long term support for open source technologies. LTS membership is open to all members of the Eclipse foundation (with at least the solution member level).
+The LTS working group, hosted by the [Eclipse Foundation](http://www.eclipse.org/org/), is focusing on enabling long term support for open source technologies. LTS membership is open to all members of the Eclipse foundation (with at least the solution member level).
 
 For companies who committed themselves to maintain their software for several decades, the community support in general will not suffice.
 
