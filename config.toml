@@ -24,6 +24,7 @@ pluralizeListTitles = false
 # logo_width = ""
 # header_left_classes = ""
 # main_menu_wrapper_classes = ""
+  featured_content_publish_target = "eclipse_org"
 
 [taxonomies]
   category = "categories"
