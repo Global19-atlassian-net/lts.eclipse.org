@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: lts.eclipse.org
   namespace: foundation-internal-webdev-apps
+  labels:
+    app: lts.eclipse.org
+    environment: production
 spec:
   selector:
     matchLabels:
